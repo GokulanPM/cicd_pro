@@ -27,6 +27,11 @@ Technology Stack
 ▸ Docker Compose – For deploying multi-container apps in production
 ▸ Linux (Ubuntu) – For the base EC2 environment and system-level tasks
 
+To test locally:
+1. Clone the repo
+2. Run: docker build -t myapp .
+3. Run: docker run -p 5000:5000 myapp
+
 What I Learned
 ▸Built a real-world DevOps pipeline with continuous integration and deployment
 ▸Gained experience in writing Dockerfiles and Jenkinsfiles
